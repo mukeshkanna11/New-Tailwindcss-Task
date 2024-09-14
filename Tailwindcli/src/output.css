@@ -558,10 +558,6 @@ video {
   margin-left: 0.25rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
 .ml-11 {
   margin-left: 2.75rem;
 }
@@ -572,6 +568,10 @@ video {
 
 .ml-14 {
   margin-left: 3.5rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
 }
 
 .ml-3 {
@@ -674,6 +674,10 @@ video {
   margin-left: 316px;
 }
 
+.ml-\[350px\] {
+  margin-left: 350px;
+}
+
 .ml-\[380px\] {
   margin-left: 380px;
 }
@@ -762,6 +766,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .mt-60 {
   margin-top: 15rem;
 }
@@ -818,6 +826,14 @@ video {
   margin-top: -400px;
 }
 
+.mt-\[-420px\] {
+  margin-top: -420px;
+}
+
+.mt-\[-5px\] {
+  margin-top: -5px;
+}
+
 .mt-\[-610px\] {
   margin-top: -610px;
 }
@@ -848,6 +864,18 @@ video {
 
 .mt-\[90px\] {
   margin-top: 90px;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[-50\] {
+  margin-top: -50;
+}
+
+.mt-\[-\] {
+  margin-top: -;
 }
 
 .flex {
@@ -956,6 +984,12 @@ video {
   justify-content: stretch;
 }
 
+.space-x-20 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(5rem * var(--tw-space-x-reverse));
+  margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
@@ -1002,6 +1036,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-blue-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -1198,4 +1237,16 @@ video {
 
 .opacity-90 {
   opacity: 0.9;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-30 {
+  opacity: 0.3;
 }
